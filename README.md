@@ -1,14 +1,6 @@
-//////////////
-//////////////////////////////
-CSE 332 Final Project: FileSystem Design 
-Authors:
-    - Yunlai Chen
-    - Peter Yan
-    - Doran Wu, 487275
-//////////////////////////////
-//////////////
 
-/////////////
+#CSE 332 Final Project: FileSystem Design 
+
 How Program Works
  - How to Run Program
  - Design Decisions (Division of Labor)
@@ -25,36 +17,11 @@ How Program Works
     - Macro Command
     - Rename Command
     - Grep Command
-////////////
 
-How to Run Program:
+## How to Run Program:
  - use "cd" command to "cd" into Debug folder of this repository
  - program can run successfully simply by typing "Lab5" in terminal (commands are already set up in file system in main and can be continually run because it is using commandprompt run, with rename added as a macro command that can be used)
-
-Design Decisions or those not Specified in Lab Directions/Other things to point out:
- - Division of Labor
-    - General Comments: Each group member contributed ideas and code to each file through both individual and also work completed in group sessions with liveshare and discussion in zoom. 
-                        Everyone worked on revising and simplifying other's code which can be seen in detail for the commits in the repository. 
-                        Below, is a more general but also more specified plan of what each member contributed to this lab. Some put more work in the studios while others in the lab
-                        however each person put in a significant work for all the work for the studios and lab.
-    - Yunlai:
-        - significantly worked on first half of the studios
-        - finished display command
-        - helped Doran finish copy command 
-        - finished macro command with rename
-    - Peter:
-        - completed a few studio readmes
-        - finished cat command
-        - helped Doran with copy command
-        - worked on testing
-    - Doran:
-        - finished the latter half of the studios
-        - finished ls command
-        - finished remove command
-        - main worker of copy command
-        - finished touch with password proxy command
-        - main writer of the readme
-
+## 
 Design Procedure for functions:
  - LSCommand
     - first function checks whether user uses command with no additional arguments or one more, if there is one more and it is -m then that is fine however if none of these
@@ -127,7 +94,7 @@ Warnings/Errors:
 
 (* made sure to pass all test cases before doing these more custom tests, and all these tests are run with the file simulation with command prompt run which is an infinite while loop and ends when :q is pressed)
 (to set these tests up we initially created two files called ("file.txt") and ("another.txt") before calling command prompt run with the chars 'h' and 'i' written to both files)
-Trial Runs / Test Cases:
+## Trial Runs / Test Cases:
  - Help Command Test Cases
     - Standard Help listing all commands in filesystem
         - Input: help
