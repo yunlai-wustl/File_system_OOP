@@ -1,12 +1,11 @@
 
-#CSE 332 Final Project: FileSystem Design 
+# CSE 504 Obecject Oriented Software development lab Final Project: FileSystem Design 
 
-How Program Works
- - How to Run Program
- - Design Decisions (Division of Labor)
+
+ How Program Works
+  - How to Run Program
  - Design Procedure for functions
  - Warnings or Errors
-
  - Trial Runs / Test Cases
     - LS Command
     - Remove Command
@@ -21,8 +20,7 @@ How Program Works
 ## How to Run Program:
  - use "cd" command to "cd" into Debug folder of this repository
  - program can run successfully simply by typing "Lab5" in terminal (commands are already set up in file system in main and can be continually run because it is using commandprompt run, with rename added as a macro command that can be used)
-## 
-Design Procedure for functions:
+## Design Procedure for functions:
  - LSCommand
     - first function checks whether user uses command with no additional arguments or one more, if there is one more and it is -m then that is fine however if none of these
       occur then command is not successfully executed
